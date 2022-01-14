@@ -1,8 +1,8 @@
-const COLORS = {
-    KeepsakeGreen: '#94C83D',
-    KeepsakeGrey: '#737D84',
-    KeepsakeBlue: '#0EC3F3',
-    KeepsakePurple: '#B45EA5',
+export const COLORS = {
+    Green: '#94C83d',
+    Grey: '#737d84',
+    Blue: '#0ed3f3',
+    Purple: '#b45ea5',
 
 
 

@@ -21,13 +21,13 @@ const Services = () => {
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1} />
-                    <ServicesH2>Invest in the previously inaccessible</ServicesH2>
+                    <ServicesH2>Marketplace</ServicesH2>
                     <ServicesP>Anyone in the adult population will be able to invest in assets holding cultural significance.</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2} />
-                    <ServicesH2>Shared Ownership</ServicesH2>
-                    <ServicesP>A fractionalised approach to asset ownership.</ServicesP>
+                    <ServicesH2>Community</ServicesH2>
+                    <ServicesP>Creating a fluid movement between community forums and trading allowing for investors to make informed choices</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3} />

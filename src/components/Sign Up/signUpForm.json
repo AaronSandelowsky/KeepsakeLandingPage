@@ -1,0 +1,71 @@
+[
+    {
+        "page_label": "Sign up",
+        "fields": [
+            {
+                "field_id": "first_name",
+                "field_label": "First Name",
+                "field_mandatory": "yes",
+                "field_placeholder": "Joe",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "surname",
+                "field_label": "Last Name",
+                "field_mandatory": "yes",
+                "field_placeholder": "Boggs",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "email",
+                "field_label": "Email Address",
+                "field_mandatory": "yes",
+                "field_placeholder": "joe@bloggs.com",
+                "field_type": "email",
+                "field_value": ""
+            },
+            {
+                "field_id": "username",
+                "field_label": "Username",
+                "field_mandatory": "no",
+                "field_placeholder": "JoeSneakerHead",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "password",
+                "field_label": "Enter Password",
+                "field_mandatory": "yes",
+                "field_placeholder": "******",
+                "field_type": "password",
+                "field_value": ""
+            },
+            {
+                "field_id": "confirm_password",
+                "field_label": "Confirm Password",
+                "field_mandatory": "yes",
+                "field_placeholder": "******",
+                "field_type": "password",
+                "field_value": ""
+            },
+            {
+                "field_id": "country",
+                "field_label": "Country",
+                "field_mandatory": "no",
+                "field_placeholder": "Australia",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "interests",
+                "field_label": "What type of assets would you like to invest in?",
+                "field_mandatory": "no",
+                "field_placeholder": "Shoes, Cars, Art",
+                "field_type": "text",
+                "field_value": ""
+            }
+        ]
+    }
+]

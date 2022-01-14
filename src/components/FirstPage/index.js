@@ -11,7 +11,7 @@ import {
     ArrowForward,
     ArrowRight
 } from './FirstPageComponents'
-import { Button } from '../ButtonElement';
+import { Button1 } from '../ButtonElement';
 
 
 
@@ -30,9 +30,19 @@ const FirstPage = () => {
                 <HeroH1> Cultural investment ... Together</HeroH1>
                 <HeroP> Come and join Australia's First Personal Interest Investment Platform</HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
+                    <Button1
+                        to="/signup"
+                        onMouseEnter={onHover}
+                        onMouseLeave={onHover}
+                        primary='true'
+                        dark='true'
+                        smooth={true}
+                        duration={800}
+                        spy={true}
+                        exact='true'
+                        offset={-80}>
                         Get started {hover ? <ArrowForward /> : <ArrowRight />}
-                    </Button>
+                    </Button1>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

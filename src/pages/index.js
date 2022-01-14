@@ -20,7 +20,7 @@ const Home = () => {
     }
 
     return (
-        <>
+        <div>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
             <FirstPage />
@@ -29,8 +29,7 @@ const Home = () => {
             <Services />
             <InfoSection {...homeObjectThree} />
 
-
-        </>
+        </div>
 
     )
 }

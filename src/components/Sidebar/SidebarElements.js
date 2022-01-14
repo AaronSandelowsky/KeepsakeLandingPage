@@ -34,7 +34,7 @@ export const Icon = styled.div`
 `
 
 export const SidebarWrapper = styled.div`
-    color = white;
+    color: white;
 `
 
 export const SidebarMenu = styled.ul`
@@ -59,8 +59,8 @@ export const SidebarLink = styled(LinkS)`
     color: white;
     cursor: pointer;
 
-    &: hover {
-        color: #01bf71
+    &:hover {
+        color: #01bf71;
         transition: 0.2s ease-in-out;
     }
 `
